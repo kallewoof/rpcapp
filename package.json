@@ -1,0 +1,36 @@
+{
+  "name": "rpc-cli",
+  "version": "1.0.0",
+  "description": "Simple RPC client demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgarage/rpc-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgarage/rpc-cli/issues"
+  },
+  "author": "Karl-Johan Alm",
+  "license": "ISC",
+  "bin": {
+    "rpc-cli": "./index.js"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "bcrpc": "^0.1.1",
+    "bitcointest": "^0.4.8",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "deasync": "^0.1.9",
+    "debug": "^2.5.1",
+    "mongodb": "^2.2.21"
+  },
+  "devDependencies": {}
+}
