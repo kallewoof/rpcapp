@@ -797,6 +797,7 @@ describe('cleanup', () => {
 
 describe('bctest end', () => {
   it('shuts down', function(done) {
+    db.disconnect();
     this.timeout(6000);
     net.shutdown(() => {
       for (const n of net.nodes) {
