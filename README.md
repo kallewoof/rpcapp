@@ -1,6 +1,6 @@
 # Sample Bitcoin RPC App
 
-Study material for understanding various real scenarios and it's effect on the Bitcoin RPC usage.
+Study material for understanding various real scenarios and their effect on the Bitcoin RPC usage.
 
 Built by [Karl-Johan Alm](https://github.com/kallewoof) as training material for the [Blockchain Core Camp (BC2)](https://bc-2.jp/) workshop, this is for educational purposes only and not intended to be used in a production app.
 
